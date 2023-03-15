@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /index
+Allow: /about
+Allow: /product
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /img/
+Disallow: /fonts/
+
+Sitemap: https://www.formulas.cc/sitemap.xml
+Sitemap: https://www.formulas.cc/baidusitemap.xml
