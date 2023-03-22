@@ -4,7 +4,7 @@ return array (
   'name' => '方略有数',
   'beian' => '京ICP备2023003272号',
   'cdnurl' => '',
-  'version' => '1.0.1',
+  'version' => '0.2.0',
   'timezone' => 'Asia/Shanghai',
   'forbiddenip' => '',
   'languages' => 
@@ -18,7 +18,6 @@ return array (
     'default' => '默认',
     'page' => '单页',
     'article' => '文章',
-    'test' => 'Test',
   ),
   'configgroup' => 
   array (
@@ -26,7 +25,6 @@ return array (
     'email' => '邮件配置',
     'dictionary' => '字典配置',
     'user' => '会员配置',
-    'example' => '示例分组',
   ),
   'mail_type' => '1',
   'mail_smtp_host' => 'smtp.qq.com',
@@ -37,9 +35,7 @@ return array (
   'mail_from' => '10000@qq.com',
   'attachmentcategory' => 
   array (
-    'category1' => '方略连接器',
-    'category2' => '方略RPA',
-    'category3' => '方略BI',
-    'custom' => '自定义',
+    'cms-formulas' => '方略有数',
+    'cms-customervoice' => '客户声音',
   ),
 );

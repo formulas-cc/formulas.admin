@@ -100,7 +100,7 @@ return [
     // 域名部署
     'url_domain_deploy'      => true,
     // 域名根，如thinkphp.cn
-    'url_domain_root'        => 'formulas.cc',
+    'url_domain_root'        => '',
     // 是否自动转换URL中的控制器和操作名
     'url_convert'            => true,
     // 默认的访问控制器层
@@ -283,7 +283,7 @@ return [
         //是否默认展示子菜单
         'show_submenu'          => false,
         //后台皮肤,为空时表示使用skin-black-blue
-        'adminskin'             => '',
+        'adminskin'             => 'skin-black-green',
         //后台是否启用面包屑
         'breadcrumb'            => false,
         //是否允许未知来源的插件压缩包

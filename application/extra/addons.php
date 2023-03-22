@@ -3,11 +3,15 @@
 return [
     'autoload' => false,
     'hooks' => [
+        'baidupush' => [
+            'baidupush',
+        ],
         'upgrade' => [
             'cms',
         ],
         'app_init' => [
             'cms',
+            'epay',
         ],
         'view_filter' => [
             'cms',
@@ -15,13 +19,16 @@ return [
         ],
         'user_sidenav_after' => [
             'cms',
-            'vip',
         ],
         'xunsearch_config_init' => [
             'cms',
         ],
         'xunsearch_index_reset' => [
             'cms',
+        ],
+        'config_init' => [
+            'nkeditor',
+            'third',
         ],
         'user_delete_successed' => [
             'third',
@@ -33,9 +40,6 @@ return [
             'third',
         ],
         'action_begin' => [
-            'third',
-        ],
-        'config_init' => [
             'third',
         ],
     ],

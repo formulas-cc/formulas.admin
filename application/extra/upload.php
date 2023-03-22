@@ -9,7 +9,7 @@ return [
     /**
      * CDN地址
      */
-    'cdnurl'    => '',
+    'cdnurl'    => 'https://t440pfa.vip.cpolar.cn',
     /**
      * 文件保存格式
      */
